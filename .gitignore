@@ -12,9 +12,7 @@ node_modules
 /build
 .build
 build
-/public
-.public
-public
+
 .logo.svg
 logo.svg
 package-lock.json
