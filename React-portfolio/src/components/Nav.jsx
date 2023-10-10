@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-//import Navbar from 'React-portfolio/src/components/UI/Navbar.jsx';
-import 'React-portfolio/src/styles/Nav.css'
+import Navbar from './UI/Navbar';
+import '../styles/Nav.css'
 
 export default function Nav() {
   
@@ -12,14 +12,14 @@ export default function Nav() {
           <Link key={1} to="/">
             About
           </Link>,
-          <Link key={2} to="/portfolio">
+          <Link key={2} to="/contact">
+            Contact
+          </Link>,
+          <Link key={3} to="/portfolio">
             Portfolio
           </Link>,
-          <Link key={3} to="/resume">
+          <Link key={4} to="/resume">
             Resume
-          </Link>,
-          <Link key={4} to="/contact">
-            Contact
           </Link>,
         ]}
       />
