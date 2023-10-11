@@ -8,11 +8,11 @@
   :root {
     font-weight: 400;
   
-    --primary: #39ace7;
-    --secondary: #0784b5;
+    --primary:yellowgreen;
+    --secondary: #07acb5;
     --light-grey: #414c50;
     --grey: #2d383c;
-    --dark-grey: #192428;
+    --dark-grey: #19281b;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;

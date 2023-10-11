@@ -10,6 +10,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+//import Footer from './components/Footer/index';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <Contact />,
       },
+      
     ],
   },
 ]);
