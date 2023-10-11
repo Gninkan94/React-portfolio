@@ -1,4 +1,4 @@
-import profilePicture from '../images/11zon_cropped (1).png'
+import profilePicture from "../images/11zon_cropped (1).png";
 import "../styles/About.css";
 
 export default function About() {
@@ -7,15 +7,22 @@ export default function About() {
       <div>
         <h2>Hello! I'm Ibrahima Diallo </h2>
         <p>
-          I decided to change my career after working
-          many years in the Medical field as a Medical laboratory Technologist.
-          I joined the OSU Coding Bootcamp to accomplish a new career path,
-          which I dream of since I was a little kid. I love building things
-          using computers. I am ambitious and driven. I thrive on challenges and
-          constantly set goals for myself, so I have something to strive toward.
-          Leraning knew stuf make me happy! I speak french and I hope after this
-          Bootcamp I will able to speak to computers by building a great social
-          Media App and conect the world. let's Connect!!
+         
+          "After dedicating several years to a fulfilling career in the medical
+          field as a Medical Laboratory Technologist, I made the bold decision
+          to embark on a new journey. I enrolled in the OSU Coding Bootcamp, a
+          pivotal step toward realizing a lifelong dream. From a young age, I've
+          been captivated by the art of crafting with technology, specifically
+          using computers as my creative canvas. My ambition is my driving
+          force, and I thrive on overcoming challenges. I'm a firm believer in
+          setting and pursuing goals, providing a continuous source of
+          motivation. Learning new things is not just a passion; it's what truly
+          makes me happy. As I traverse this coding adventure, my goal is to
+          master the language of computers and connect with them in a way that
+          can positively impact the world. Through my journey, I aspire to craft
+          a remarkable social media application that bridges gaps and connects
+          individuals from all corners of the globe. Let's connect and make this
+          digital dream a reality!"
         </p>
       </div>
       <img src={profilePicture} alt="diallo" />
