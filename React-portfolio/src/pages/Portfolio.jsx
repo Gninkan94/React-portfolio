@@ -2,6 +2,7 @@ import weatherApp from '../images/weather app.png'
 import CommunityFinder from '../images/community finder.png'
 import workDayScheduler from '../images/work day scheduler.png'
 import eventPlaner from '../images/project blog.png'
+import instaClip from '../images/InstaClip.png'
 import '../styles/Portfolio.css'
 
 export default function Portfolio() {
@@ -25,6 +26,11 @@ export default function Portfolio() {
                 <section class="card">
                     <h4>My Community Finder </h4>
                     <a href="https://julianjaguilar.github.io/Project-1/" target="_blank"><img src={CommunityFinder} alt='CommunityFinder'/></a>
+                </section>
+
+                <section class="card">
+                    <h4> InstaClip Video player </h4>
+                    <a href="https://instaclip-5c26d78800f1.herokuapp.com/" target="_blank"><img src={instaClip} alt='instaClip'/></a>
                 </section>
                 
                 
